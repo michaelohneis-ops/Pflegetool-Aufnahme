@@ -29,6 +29,12 @@ import hashlib
 import io
 from fpdf import FPDF
 
+# --- HIER DEINE NEUEN ZEILEN EINFÜGEN ---
+import pflegesoftware_export
+import safe_care_staff_guard
+import database_module_v3_1_5 
+# ---------------------------------------
+
 # ============================================================================
 # ENUMS & CONSTANTS
 # ============================================================================
