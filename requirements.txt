@@ -1,0 +1,28 @@
+# requirements.txt für Pflege-Tool v3.1.5 Market-Ready
+# Production Dependencies
+
+# Core
+streamlit==1.31.0
+pandas==2.2.0
+
+# Database
+sqlalchemy==2.0.25
+
+# Excel/CSV Export
+openpyxl==3.1.2
+
+# PDF Export
+fpdf==1.7.2
+reportlab==4.0.9  # Optional: Für PDF/A
+
+# Security
+bcrypt==4.1.2  # Für Passwort-Hashing
+
+# Utilities
+python-dateutil==2.8.2
+
+# Optional: Authentication
+streamlit-authenticator==0.2.3
+
+# Optional: Enhanced logging
+python-json-logger==2.0.7
